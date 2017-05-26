@@ -1,19 +1,25 @@
 <html>
 <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="https://get.mavo.io/mavo.css"/>
     <script src="https://get.mavo.io/mavo.js"></script>
 </head>
 <body>
     <div
-       mv-app
-       id="tdah"
+       mv-app="tdah"
        mv-storage="https://github.com/tdahtalks/mavo"
     >
-        <h1
-          property="pageTitle"
-        >
+        <h1 property="pageTitle">
           TDAH
         </h1>
+        
+        <h2>Edições</h2>
+        
+        <div mv-property="events" mv-multiple>
+            <time property="date" datetime="2017-05-26">26 May 2017</time>
+            <div property="venue"></div>
+            <a property="link" mv-attribute="none" href="[link]">https://example.com</a>
+        </div>
     </div>
 </body>
 </html>
