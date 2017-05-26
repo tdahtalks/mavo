@@ -13,9 +13,17 @@
           TDAH
         </h1>
         
-        <h2>Edições</h2>
+        <h2>Próximas Edições</h2>
+        <div mv-property="nextEvent" mv-multiple mv-accepts="pastEvents" >
+            <time property="date" datetime="2017-05-26">26 May 2017</time>
+            <div property="venue"></div>
+            <a property="link" mv-attribute="none" href="[link]">https://example.com</a>
+        </div>
         
-        <div mv-property="events" mv-multiple>
+        
+        <h2>Edições Passadas</h2>
+        
+        <div mv-property="pastEvents" mv-multiple mv-accepts="nextEvents">
             <time property="date" datetime="2017-05-26">26 May 2017</time>
             <div property="venue"></div>
             <a property="link" mv-attribute="none" href="[link]">https://example.com</a>
