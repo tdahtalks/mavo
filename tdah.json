@@ -3,16 +3,20 @@
 	"nextEvents": [
 		{
 			"date": "2017-06-09",
-			"link": "https://example.com"
+			"link": "https://example.com",
+			"venue": "Sanca Ventures??"
 		}
 	],
 	"pastEvents": [
 		{
 			"date": "2017-05-26",
-			"link": "https://example.com"
+			"link": "https://example.com",
+			"venue": "Sanca Ventures"
 		},
 		{
-			"date": "2017-05-12"
+			"date": "2017-05-12",
+			"venue": "Sanca Ventures\n",
+			"link": "https://example.com/foo"
 		}
 	]
 }
